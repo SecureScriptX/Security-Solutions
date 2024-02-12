@@ -57,14 +57,14 @@ The location of the IDS device in the network varies depending on its type. For 
 
 Every tool has its pros and cons, and Intrusion Detection Systems (IDS) are no exception. It is essential to be aware of the challenges associated with IDS implementation.
 
-1. **False Alarms:**
+**False Alarms:**
    - IDS systems may occasionally generate false alarms. To address this, organizations must proactively detect and configure the system during initial use. This involves setting up the system to easily identify normal traffic and distinguish any malicious activity.
 
-2. **Serious Issues from False Alarms:**
+**Serious Issues from False Alarms:**
    - False alarms, if not handled carefully, can lead to serious issues. There's a risk that IDS might overlook a threat amidst recognized traffic, leaving IT teams unaware of a potential attack. Vigilance is crucial to avoiding such situations and taking appropriate measures.
 
-3. **Limited Resolution Capability:**
+**Limited Resolution Capability:**
    - While IDS help monitor network activities, they lack the capability to block or resolve identified issues. Organizations must employ skilled personnel to promptly address and mitigate threats detected by IDS.
 
-4. **Detection Challenges with New Threats:**
+**Detection Challenges with New Threats:**
    - IDS faces a significant challenge in detecting new suspected intrusions, especially when new malware does not exhibit patterns of previous unusual behavior. Efforts should be made to enhance the IDS's ability to identify novel threats, allowing organizations to take immediate precautions against emerging risks.
