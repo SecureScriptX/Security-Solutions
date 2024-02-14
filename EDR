@@ -1,0 +1,47 @@
+# Endpoint Detection and Response (EDR)
+
+## What is EDR?
+
+Endpoint Detection and Response (EDR) is a security product designed for installation on endpoint-qualified devices. It continually monitors system activities, detects security threats such as ransomware and malware, and takes proactive measures against malicious activities.
+
+## Endpoint Devices
+
+Examples of endpoint devices include:
+
+- Desktop computers
+- Laptops
+- Servers
+- Mobile devices
+
+## EDR Core Components
+
+EDR products consist of core components that work together to ensure the security of endpoint devices. These components include:
+
+- **Endpoint Data Collection Agents**
+- **Automated Response**
+- **Analysis and Forensics**
+
+## Functions of EDR
+
+The primary functions of EDR products include:
+
+- Monitoring and collecting information on each process that may pose a security threat on the device
+- Analyzing threat actor behavior based on collected data
+- Notifying relevant analysts by taking appropriate security actions against identified threat actors
+- Enabling forensic analysis on the device for in-depth investigation of suspicious activities
+
+## The Importance of EDR for Security
+
+Ensuring the security of devices protected by EDR has become crucial today. Attackers often target vulnerable devices to gain network access. If an endpoint lacks EDR protection and is not sufficiently secure, it can serve as a gateway for attackers to initiate initial access to the network.
+
+Popular EDR products within the cybersecurity industry include:
+
+- [SentinelOne](https://www.sentinelone.com/)
+- [Crowdstrike](https://www.crowdstrike.com/)
+- [CarbonBlack](https://www.carbonblack.com/)
+- [Palo Alto](https://www.paloaltonetworks.com/)
+- [FireEye HX](https://www.fireeye.com/)
+
+## Log Sources for EDR
+
+EDR products maintain logs by monitoring the system on which they are installed. The processes running on the system, including file access information, are recorded as logs. This includes details such as programs run, files accessed, and changes made by running programs. EDR products gather various information deemed necessary for security through system monitoring and logging.
