@@ -1,0 +1,43 @@
+# Antivirus Software (AV)
+
+## What is Antivirus Software (AV)?
+
+Antivirus Software (AV) is security software designed to identify and prevent malware on devices. It detects, blocks, and removes malware from the system before it can cause harm.
+
+## Types of Antivirus Software
+
+Antivirus software employs different scanning methods, including:
+
+### Signature-Based Scanning
+
+In this method, the software scans the system for malware using digital signatures. If a matching signature is found, the file is marked as malicious and removed. Regular updates to the digital signature database are essential for effective detection of known malware.
+
+### Heuristic Scanning
+
+This method monitors the behavior of files rather than relying on signatures. By observing accesses and behaviors, the software can detect suspicious activities, providing a higher probability of identifying new or unknown malware.
+
+## Functions of Antivirus Software
+
+Antivirus Software performs the following functions:
+
+- Constantly scanning the system to detect malware
+- Protecting the system against external threats
+- Cleaning detected malware from the system
+
+## The Importance of Antivirus Software for Security
+
+Antivirus software plays a crucial role in security by conducting periodic scans and efficiently detecting known malware. Using up-to-date malware signature databases is essential for maintaining security in today's environment.
+
+## Popular Antivirus Products
+
+Some widely used antivirus products in the cybersecurity industry include:
+
+- McAfee
+- Symantec
+- Bitdefender
+- Eset
+- Norton
+
+## Log Sources for Antivirus Software
+
+Antivirus software maintains logs of findings from periodic or specific file scans. These logs include information such as file size, name, signature, and type of malware. These logs facilitate retrospective scans and provide valuable valuable information on malware detections.
