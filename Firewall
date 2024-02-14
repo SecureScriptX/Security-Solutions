@@ -1,0 +1,80 @@
+## What is Firewall?
+
+A firewall is security software or hardware that monitors incoming and outgoing network traffic based on predefined rules. It allows or blocks the passage of network packets according to the nature of these rules.
+
+## Types of Firewall
+
+1. **Application-Level Gateways (Proxy Firewalls)**
+
+   - Function at the application layer between two end systems.
+   - Captures and analyzes packets in the application layer for additional security.
+
+2. **Circuit-Level Gateways**
+
+   - Easily configurable, low resource consumption, and simplified structure.
+   - Verifies TCP connections and sessions, operating in the session layer of the OSI model.
+
+3. **Cloud Firewalls**
+
+   - Used when an institution receives firewall service over the cloud.
+   - No physical resources, easily reconfigurable based on demand or traffic load.
+
+4. **Endpoint Firewalls**
+
+   - Host-based firewalls installed on devices.
+   - Essential for security, for example, "Windows Defender Firewall" in Windows.
+
+5. **Network Address Translation (NAT) Firewalls**
+
+   - Designed to access internet traffic and block unwanted connections.
+   - Hides internal IP addresses from the external network using NAT.
+
+6. **Next-Generation Firewalls (NGFW)**
+
+   - Combines features of different firewalls into a single firewall.
+   - Includes deep-packet inspection (DPI) for blocking external threats and advanced attack methods.
+
+7. **Packet-Filtering Firewalls**
+
+   - Monitors network traffic and filters incoming packets based on configured rules.
+   - Quick solution with low resource requirements but lacks web-based attack blocking.
+
+8. **Stateful Multi-Layer Inspection (SMLI) Firewalls**
+
+   - Capable of packet inspection and TCP handshake verification.
+   - Tracks the status of established connections.
+
+9. **Threat-Focused NGFW**
+
+   - Includes advanced threat detection features for quick reaction to attacks.
+   - Provides security through rules written with a threat focus.
+
+10. **Unified Threat Management (UTM) Firewalls**
+
+    - Special stateful inspection firewalls with antivirus and intrusion prevention.
+
+## How Firewall Works
+
+While firewall devices vary, they generally follow the same logic. Firewall rules, checked to decide whether to allow or block network packets, are crucial for their operation. For instance, firewall rules can segment networks within an organization, enhancing security.
+
+## Importance of Firewall for Security
+
+A firewall is a fundamental security solution that must be part of a network. Proper configuration and management are crucial for its effectiveness. However, relying solely on a firewall is insufficient for comprehensive network or host protection.
+
+### Popular Firewall Products:
+
+- Fortinet
+- Palo Alto Networks
+- SonicWall
+- Checkpoint
+- Juniper
+- pfsense
+- Sophos
+
+## What log resources does Firewall have?
+
+Firewall products generate logs about network flow due to their network-based filtering. Sample information from firewall logs includes date/time, source/destination IP addresses, source/destination ports, action information, and the number of packets sent/received.
+
+## Physical Location of Firewall Device
+
+Firewall devices can be located in different network positions based on their types. For example, host-based firewalls filter inbound/outbound traffic in front of a host. In a corporate network, a firewall is typically positioned at the interfaces heading to the internet or at the external interface, intercepting packets before reaching IDS/IPS devices.
