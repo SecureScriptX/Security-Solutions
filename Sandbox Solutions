@@ -1,0 +1,33 @@
+# Sandbox Solutions
+
+## What is Sandbox Solutions?
+
+Sandbox is a technology used to run/open and examine executable files or file types with different extensions (pdf, docx, and xlsx) that are suspected or known to be malware in an isolated environment. The Sandbox serves as a preventive measure against potential issues that may arise when executing or opening such files on a live system.
+
+## The Benefits of Sandboxing
+
+- Does not put hosts and operating systems at risk.
+- Detects potentially dangerous files.
+- Allows testing of software updates before they go live.
+- Enables combating 0-day vulnerabilities.
+
+## The Importance of Sandboxes for Security
+
+As malware evolves with more advanced methods, security technologies must adapt. Sandboxes play a crucial role in understanding malware behaviors and implementing necessary precautions. Here's how a sandbox works:
+
+1. **Isolation:** Executable files are run in a confined environment.
+2. **Behavior Analysis:** The sandbox observes the runtime behavior, accessed files, and interactions with the system.
+3. **Preventive Measures:** Based on the analysis, appropriate precautions are taken.
+
+Some popular Sandbox products used in the cybersecurity industry include:
+
+- Checkpoint
+- McAfee
+- Symantec
+- Trend Micro
+- Proofpoint
+- Totalrun
+
+## What data sources do sandboxes have?
+
+Each sandbox product retains unique data, primarily related to the analyses performed. For instance, when running the `sample.exe` file in a sandbox environment, the data provided to the user may include information such as the runtime, files accessed, behavior, date/time details of operations, and hash information of the file.
