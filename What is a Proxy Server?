@@ -1,0 +1,94 @@
+# Proxy Server
+
+## What is a Proxy Server?
+
+A Proxy Server, whether hardware or software, serves as a gateway between clients and servers, with diverse applications.
+
+## Types of Proxy Servers (21)
+
+### Forward Proxy Server
+The most widely used type directing requests from a private network to the internet through a firewall.
+
+### Transparent Proxy Server
+Directs requests and responses to the target without altering them.
+
+### Anonymous Proxy Server
+Enables anonymous browsing on the internet.
+
+### High Anonymity Proxy Server
+Enhances client confidentiality by not revealing proxy server type and client IP address in the request.
+
+### Distorting Proxy Server
+Attempts to hide its identity by presenting itself as the proxy server of a website.
+
+### Data Center Proxy Server
+A special proxy not connected to the ISP, offering quick response features.
+
+### Residential Proxy Server
+Passes all client requests, blocking unwanted and suspicious advertisements for enhanced security.
+
+### Public Proxy Server
+Free for everyone, sacrificing security and speed.
+
+### Shared Proxy Server
+Used by multiple users simultaneously, providing a fast connection but with potential downsides.
+
+### SSL Proxy Server
+Ensures bidirectional encrypted communication between client and server for increased safety.
+
+### Rotating Proxy Server
+Assigns a separate IP address to each client.
+
+### Reverse Proxy Server
+Validates and processes transactions without direct client-server communication.
+
+### Split Proxy Server
+Runs as two programs on different computers.
+
+### Non-Transparent Proxy Server
+Sends all requests to the firewall, with clients aware of the firewall involvement.
+
+### Hostile Proxy Server
+Used for eavesdropping on web traffic between client and target.
+
+### Intercepting Proxy Server
+Combines proxy server and gateway features.
+
+### Forced Proxy Server
+Applies blocking and allowing policies simultaneously.
+
+### Caching Proxy Server
+Includes a caching mechanism, saving bandwidth with cached responses.
+
+### Web Proxy Server
+Specifically works on web traffic.
+
+### Socks Proxy Server
+Prevents external components from obtaining client information.
+
+### HTTP Proxy Server
+A proxy with a caching mechanism for HTTP protocol.
+
+## Benefits of Proxy Server
+
+- Private browsing
+- Increased user security
+- Hides client's IP address
+- Manages network traffic
+- Saves bandwidth with caching
+- Provides access to restricted places
+
+## How Does a Proxy Work?
+
+Proxy servers act as intermediaries between clients and targets, directing requests and managing network traffic.
+
+## The Importance of Proxy Servers for Security
+
+Proxy servers play vital roles in security, hiding client IP addresses and managing traffic effectively. SOC Analysts need to carefully analyze traffic from proxies, as source IP addresses belong to proxy servers. Additionally, encryption support is crucial for secure transmission.
+
+Some popular Proxy Server products in the cybersecurity industry include:
+
+- Smartproxy
+- Bright Data
+- SOAX
+- Oxylabs
