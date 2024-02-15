@@ -1,0 +1,39 @@
+# Data Loss Prevention (DLP)
+
+## What is Data Loss Prevention (DLP)?
+
+Data Loss Prevention (DLP) is a technology designed to prevent sensitive and critical information from leaving an institution.
+
+## Types of DLP
+
+DLP products can be categorized into several types:
+
+### Network DLP
+
+Network DLP focuses on security measures related to the transmission of critical and sensitive information outside the organization through the network. It can block connections attempting to upload files to FTP servers, audit requests, or forward logs to relevant security solutions. Actions taken by DLP products vary based on configuration, and they can also report suspicious activities to administrators.
+
+### Endpoint DLP
+
+In contrast to Network DLP, Endpoint DLP monitors activities on specific devices rather than packet flow within the network. Installed on the device, Endpoint DLP manages suspicious activities and is crucial for protecting critical information on remote personnel's devices. For instance, it can verify if sensitive information is encrypted on the device.
+
+### Cloud DLP
+
+Cloud DLP is employed to prevent sensitive data leakage over the cloud and collaborates with specific cloud technologies. It ensures that corporate personnel can use cloud applications securely without risking data breaches or loss.
+
+## How does DLP work?
+
+When DLP identifies data in the correct format according to defined rules, it either blocks the action or ensures transmission security by encrypting the data. For instance, if credit card numbers are detected in email content, the DLP product takes relevant actions based on predefined rules.
+
+## The Importance of DLP for Security
+
+In today's organizations, the disclosure of critical information is a common occurrence with potentially severe consequences. DLP products are crucial security solutions for institutions holding sensitive information, offering protection against data breaches.
+
+## Popular DLP Products
+
+Some widely used DLP products in the cybersecurity industry include:
+
+- Forcepoint
+- McAfee
+- Trend Micro
+- Checkpoint
+- Symantec
